@@ -10,6 +10,9 @@ env/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Ignore all trial text files
+trial*.txt
+
 # System files
 .DS_Store
 Thumbs.db
