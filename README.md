@@ -1,58 +1,73 @@
-# Retail Analytics Portfolio
+# Customer & Retail Insights Portfolio
 
-This repository contains two end-to-end analytics projects designed to demonstrate applied data analysis, business insight generation, and evidence-based decision-making for retail strategy.
+This portfolio showcases two projects analyzing **customer purchasing behavior** and **store performance trials** in the retail snack category. Each project demonstrates data-driven insights to inform **category strategy** and **promotional decision-making**.
 
 ---
 
 ## Project 1: Customer Segment & Chips Purchasing Behavior Analysis
 
 ### Objective
+Understand customer segments and their purchasing behavior in the **chips category**, enabling the Category Manager (Julia) to make informed decisions for product assortment and promotions.
 
-To analyze customer segments and their purchasing behavior in the chips category, helping the Category Manager (Julia) develop targeted strategies for growth.
+### Story
+Customers behave differently based on **lifestage** and **premium tier**. By analyzing transactions and demographics, we can uncover:
 
-### Key Steps
+- Who buys chips and when  
+- Which pack sizes and brands are preferred  
+- Which segments drive the most sales
 
-1. **Data Preparation** – Cleaned and structured transactional data.
-2. **Feature Engineering** – Extracted features such as pack size, brand name, and customer segment.
-3. **Exploratory Analysis** – Identified key patterns in purchase volume, frequency, and spend.
-4. **Insight Generation** – Interpreted seasonal trends, segment behaviors, and value contributions.
+### Approach
+1. **Data Preparation** – Cleaned transaction and customer datasets, handled outliers, and removed non-chip products.
+2. **Feature Engineering** – Extracted features such as **pack size**, **brand**, and **customer segment**.
+3. **Exploratory Analysis** – Examined sales trends, seasonality, and segment contributions.
+4. **Insight Generation** – Calculated metrics like **average units per customer** and **average price per unit**, and analyzed brand affinity.
 
 ### Key Insights
-
-* **Standard pack sizes (≈175g)** dominate sales and represent the core category.
-* **December** shows a consistent **sales peak**, reflecting seasonal demand.
-* **Premium customers** drive high margins despite smaller basket sizes.
-* **Older Families and Retirees** maintain strong and stable volume contributions.
+- **Sales Drivers**: Most chip sales come from **Budget - Older Families**, **Mainstream - Young Singles/Couples**, and **Mainstream - Retirees**.  
+- **High Spend Segments**: Higher sales often driven by **more customers**, some by **higher units per customer** or **higher price per packet**.  
+- **Willingness to Pay**: Mainstream Midage and Young Singles/Couples are willing to pay **higher prices per packet**, suggesting **impulse buying behavior**.  
+- **Brand Preference**: Mainstream Young Singles/Couples are **23% more likely** to purchase **Tyrrells** and show strong affinity for **Twisties 270g packs**.  
 
 ### Strategic Implications
-
-* Focus **premium promotions** on high-value customers for margin growth.
-* Run **volume-driven campaigns** for mainstream family and senior segments to maintain steady sales.
+- Place **Tyrrells and popular pack sizes** in **high-traffic, discretionary areas** frequented by Young Singles/Couples.  
+- Run **targeted promotions during peak periods** (e.g., holidays) to encourage **impulse purchases**.  
+- Focus **premium campaigns** on high-value customers to grow margins, while supporting mainstream segments with **volume-driven promotions**.
 
 ---
 
 ## Project 2: Trial Store Performance Evaluation
 
 ### Objective
+Assess the impact of a **promotional trial** conducted in stores **77, 86, and 88**, comparing results against selected control stores to determine changes in **sales and customer behavior**.
 
-To assess the impact of a promotional trial conducted in stores **77, 86, and 88**, comparing trial results against control stores to determine if sales or customer behavior significantly changed.
+### Story
+Promotional trials allow testing strategies before a full rollout. By comparing trial stores to similar controls, we can distinguish between **natural variability** and **true promotional impact**.
 
 ### Approach
+1. **Control Store Selection** – Identified stores similar in **sales and customer patterns** using correlation and magnitude distance.  
+2. **Data Scaling** – Normalized pre-trial data for fair comparison.  
+3. **Statistical Testing** – Applied **t-tests** and **confidence intervals** to measure significance.  
+4. **Visualization** – Tracked sales and customer trends across **pre-trial and trial periods**.
 
-* Selected representative **control stores** based on sales and customer similarity (using correlation and magnitude distance).
-* Scaled pre-trial data for fair comparison.
-* Conducted **t-tests** and confidence interval analysis to evaluate significance.
-* Visualized performance trends during pre-trial and trial periods.
-
-### Findings
+### Key Findings
 
 | Trial Store | Control Store | Key Findings                                                                      |
 | ----------- | ------------- | --------------------------------------------------------------------------------- |
-| **77**      | 233           | Sales and customer count both increased significantly — strong trial effect.      |
-| **86**      | 155           | Customer visits rose, but sales impact not significant — possible pricing effect. |
-| **88**      | 178           | Higher sales but lower customer counts — spending per customer increased.         |
+| **77**      | 233           | Sales and customer count **both increased significantly** — strong trial effect. |
+| **86**      | 155           | Customer visits **rose**, but sales impact not significant — possible pricing effect. |
+| **88**      | 178           | Higher **sales** but lower **customer counts** — spending per customer increased. |
 
 ### Strategic Implications
+- The trial had **positive but varied effects** across stores.  
+- Suggests reviewing **promotion design, pricing, and timing** before scaling.  
+- Future trials could incorporate **segment-level analysis** and **customer behavior monitoring** for optimized ROI.
 
-* Trial had **positive but varied impact** across stores.
-* Recommends deeper review of **promotional design and pricing** strategies for scalability.
+
+## Conclusion
+Together, these projects demonstrate how **data-driven insights** can guide retail strategy:
+
+1. Understand **which customers drive sales**, what they buy, and at what price.  
+2. Identify **opportunities for targeted promotions** and assortment optimization.  
+3. Measure **trial store performance** to scale successful strategies and avoid ineffective ones.  
+
+By combining customer insights and experimental analysis, retailers can **maximize sales, enhance customer experience, and make confident strategic decisions**.
