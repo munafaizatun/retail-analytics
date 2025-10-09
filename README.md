@@ -1,4 +1,4 @@
-# Customer & Retail Insights Portfolio
+# Customer & Retail Insights
 
 This portfolio showcases two projects analyzing **customer purchasing behavior** and **store performance trials** in the retail snack category. Each project demonstrates data-driven insights to inform **category strategy** and **promotional decision-making**.
 
